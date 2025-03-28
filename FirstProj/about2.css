@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: baskerville, serif;
+    font-size: 22px;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+}   
+/* Upper part with maroon background */
+.header-section {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/030/669/803/non_2x/maroon-background-high-quality-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: beige;
+    padding: 15px;
+}
+
+/* Lower part with beige background */
+.content-section {
+    background-image: url('https://cdn.wallpapersafari.com/4/86/YzQnON.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: rgb(102, 0, 0);
+    padding: 50px;
+    font-size: 22px;
+}
+/* Navigation Buttons */
+.navigation-buttons {
+    text-align: center; 
+    margin-top: 90px; 
+}
+
+.navigation-buttons .btn {
+    display: inline-block;
+    background-color: rgb(90, 0, 0);
+    color: beige; 
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px; 
+    margin: 0 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.navigation-buttons .btn:hover {
+    background-color: rgb(102, 0, 0)
+}; 

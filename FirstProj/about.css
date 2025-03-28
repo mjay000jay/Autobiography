@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: baskerville, serif;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+}   
+/* Upper part with maroon background */
+.header-section {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/030/669/803/non_2x/maroon-background-high-quality-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: beige;
+    padding: 15px;
+}
+
+/* Lower part with beige background */
+.content-section {
+    background-image: url('https://cdn.wallpapersafari.com/4/86/YzQnON.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: rgb(102, 0, 0);
+    padding: 60px;
+    font-size: 22px;
+}
+/* Education Images Container */
+.education-images {
+    display: flex; /* Aligns images side by side */
+    gap: 12px; /* Adds spacing between the images */
+    justify-content: center; /* Centers the images horizontally */
+    margin: 20px 0; /* Adds spacing above and below the images */
+}
+/* Individual Images */
+.school-img {
+    width: 300px; /* Sets a consistent width for all images */
+    height: 300px; /* Sets a consistent height for all images */
+    border-radius: 30px; /* Adds rounded corners to the images */
+    border: 1px solid darkred; /* Sets the border size and color */
+    box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow for better aesthetics */
+    object-fit: cover; /* Ensures the images maintain their aspect ratio */
+}
+/* Navigation Buttons */
+.navigation-buttons {
+    text-align: center; /* Centers the buttons */
+    margin-top: 90px; /* Adds spacing above the buttons */
+}
+
+.navigation-buttons .btn {
+    display: inline-block; /* Makes the buttons inline */
+    background-color: rgb(90, 0, 0); /* Button background color */
+    color: beige; /* Button text color */
+    padding: 12px 30px; /* Adds padding inside the buttons */
+    text-decoration: none; /* Removes underline from links */
+    border-radius: 5px; /* Adds rounded corners */
+    font-size: 20px; /* Sets font size */
+    margin: 0 10px; /* Adds spacing between buttons */
+    transition: background-color 0.3s ease; /* Adds a hover effect */
+}
+
+.navigation-buttons .btn:hover {
+    background-color: rgb(102, 0, 0); /* Darkens the button on hover */
+}
